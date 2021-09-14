@@ -27,3 +27,5 @@ The third version failed because I realized its not possible to collect all user
 **************************
 Fourth and final version
 =======
+https://github.com/rekhaselvan01/my-password-generator/issues/2
+scrrenshot is also available in the issues section in github.
