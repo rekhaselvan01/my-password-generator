@@ -18,3 +18,9 @@ Areas to be fixed
 2. I am not satisfied with flow of code.. it would be better if i get values in one function and validate in other.. right now its messy.
 3.Hopefully i will be able to fix the algorithm and display the correct password.
 screenshot for this version:
+
+
+********
+The third version failed because I realized its not possible to collect all user inputs in one fucntion and validate in another function when you are using prompt. It is possible when we use forms. so I am going to rollback to second version and focus on generating correct random password.
+**************************
+Fourth and final version
