@@ -30,6 +30,3 @@ Fourth version
 https://github.com/rekhaselvan01/my-password-generator/issues/2
 scrrenshot is also available in the issues section in github.
 
-fifth and final version
-![image](https://user-images.githubusercontent.com/53416989/133452481-e8ad936b-0a47-439c-be38-b271f5510753.png)
-In this version i was able to generate a random password but i was not able to include only the characters that user choose. I was able to make the characterset to include all choices. I had a fixed set of characters and generated random password.
