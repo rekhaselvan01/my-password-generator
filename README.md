@@ -25,10 +25,15 @@ screenshot for this version:: https://user-images.githubusercontent.com/53416989
 ********
 The third version failed because I realized its not possible to collect all user inputs in one fucntion and validate in another function when you are using prompt. It is possible when we use forms. so I am going to rollback to second version and focus on generating correct random password.
 **************************
-Fourth and final version
+Fourth version
 =======
+<<<<<<< HEAD
 
 fifth version:
 
 In this version i was able to generate a random password but i was not able to include only the characters that user choose. I was able to make the characterset to include all choices. I had a fixed set of characters and generated random password.
+=======
+https://github.com/rekhaselvan01/my-password-generator/issues/2
+scrrenshot is also available in the issues section in github.
+>>>>>>> c9570da4e56af61f01640f64860b918eb6f4582c
 
