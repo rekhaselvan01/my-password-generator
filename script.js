@@ -84,8 +84,7 @@ function getCharsToUse() {
 
 
    function generateWeakestPassword(){
-
-  let defaultCharSet = lwrCaseCharSet;
+       /*let defaultCharSet = lwrCaseCharSet;
   if(useUpperCase){
       defaultCharSet = defaultCharSet.concat(useUpperCase);
   }
@@ -95,20 +94,34 @@ function getCharsToUse() {
 if(useSpecialChars){
     defaultCharSet = defaultCharSet.concat(useSpecialChars);
 }
-intermediatePassword= [];
-for(var i=0; i<= passwordLength[1]; i++){
-    var defaultArray = [Math.floor(Math.random() * passwordLength[1])];
 
-    console.log(defaultArray)
-    intermediatePassword.push(defaultArray);
-   defaultCharSet = intermediatePassword.concat(defaultCharSet);
-  //defaultCharSet= defaultArray.concat(defaultCharSet);
-   console.log(defaultCharSet);
+    intermediatePassword= [];
+    for(var i=0; i<= passwordLength[1]; i++){
+        var defaultArray = [Math.floor(Math.random() * passwordLength[1])];
+    
+        console.log(defaultArray)
+        intermediatePassword.push(defaultArray);
+       defaultCharSet = intermediatePassword.concat(defaultCharSet);
+      //defaultCharSet= defaultArray.concat(defaultCharSet);
+       console.log(defaultCharSet);
+    
+    }
+    //return intermediatePassword;
+    //console.log(intermediatePassword);
+    return defaultCharSet;
+    console.log(defaultCharSet);
+    }
+    
+  */
+var characterSet ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+~`|}{[]\:;?><,./-=';
 
+Password= '';
+for(var i=0; i<= passwordLength[0]; i++){
+    var defaultArray = [Math.floor(Math.random() * characterSet.length)];
+password= password + characterSet.substring(defaultArray,defaultArray+1);
+    console.log(password);
 }
-//return intermediatePassword;
-//console.log(intermediatePassword);
-return defaultCharSet;
-console.log(defaultCharSet);
+return password;
+console.log(password);
 }
 
