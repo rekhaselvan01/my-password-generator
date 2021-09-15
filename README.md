@@ -27,3 +27,8 @@ The third version failed because I realized its not possible to collect all user
 **************************
 Fourth and final version
 =======
+
+fifth version:
+
+In this version i was able to generate a random password but i was not able to include only the characters that user choose. I was able to make the characterset to include all choices. I had a fixed set of characters and generated random password.
+
